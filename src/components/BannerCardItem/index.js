@@ -5,15 +5,15 @@ const BannerCardItem = props => {
   const {bannerDetails} = props
   const {headerText, description, className, id} = bannerDetails
   return (
-    <li className={className} key={id}>
-      <div className="inner-container">
+    <div className={className} key={id}>
+      <div>
         <h1 className="title">{headerText}</h1>
         <p className="para">{description}</p>
         <button className="button" type="button">
-          Know more
+          Show More
         </button>
       </div>
-    </li>
+    </div>
   )
 }
 

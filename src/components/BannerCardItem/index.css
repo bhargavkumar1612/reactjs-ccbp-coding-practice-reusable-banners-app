@@ -42,7 +42,8 @@
   color: #326a9d;
   margin: 10px;
   padding: 10px;
-  border: 1px #326a9d 5px;
+  border: 1px #326a9d solid;
+  border-radius: 5px;
 }
 .inner-container {
   padding: 20px;

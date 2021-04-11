@@ -24,11 +24,11 @@ const bannerCardsData = [
 ]
 
 const App = () => (
-  <ul className="cards-container">
+  <div className="cards-container">
     {bannerCardsData.map(item => (
       <BannerCardItem bannerDetails={item} />
     ))}
-  </ul>
+  </div>
 )
 
 export default App
