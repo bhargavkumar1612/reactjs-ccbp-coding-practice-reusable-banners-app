@@ -29,18 +29,18 @@
   color: #326a9d;
   font-family: Roboto;
   font-weight: 900;
-  margin: 40px;
+  margin: 10px;
 }
 .para {
   color: #7e858e66;
   font-family: Roboto;
-  margin: 20px;
+  margin: 10px;
 }
 
 .button {
   font-family: Roboto;
   color: #326a9d;
-  margin: 20px;
+  margin: 10px;
   padding: 10px;
   border: 1px #326a9d 5px;
 }
