@@ -15,4 +15,10 @@ body {
 .cards-container {
   list-style-type: none;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow-y: auto;
 }

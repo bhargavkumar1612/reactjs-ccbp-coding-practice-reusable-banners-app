@@ -3,10 +3,10 @@ import './index.css'
 
 const BannerCardItem = props => {
   const {bannerDetails} = props
-  const {headerText, description, className, id} = bannerDetails
+  const {headerText, description, className} = bannerDetails
   return (
-    <div className={className} key={id}>
-      <div>
+    <div className={`card ${className}`}>
+      <div className="inner-container">
         <h1 className="title">{headerText}</h1>
         <p className="para">{description}</p>
         <button className="button" type="button">

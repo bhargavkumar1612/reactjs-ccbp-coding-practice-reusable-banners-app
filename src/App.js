@@ -26,7 +26,7 @@ const bannerCardsData = [
 const App = () => (
   <div className="cards-container">
     {bannerCardsData.map(item => (
-      <BannerCardItem bannerDetails={item} />
+      <BannerCardItem bannerDetails={item} key={item.id} />
     ))}
   </div>
 )

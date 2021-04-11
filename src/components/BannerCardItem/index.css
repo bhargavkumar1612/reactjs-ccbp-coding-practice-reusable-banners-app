@@ -1,8 +1,6 @@
 .card-1 {
   background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
   background-size: cover;
-  margin: 20px;
-  height: 200px;
 }
 
 .card-2 {
@@ -10,8 +8,6 @@
   justify-content: flex-end;
   background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
   background-size: cover;
-  margin: 40px;
-  height: 200px;
 }
 
 .card-3 {
@@ -20,11 +16,17 @@
   text-align: center;
   background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
   background-size: cover;
-  margin: 40px;
-  height: 200px;
 }
 
 /* Write your code here. */
+.card {
+  margin: 20px;
+  height: 30%;
+  width: 90%;
+}
+.inner-container {
+  padding: 20px;
+}
 .title {
   color: #326a9d;
   font-family: Roboto;
@@ -50,7 +52,7 @@
 }
 @media screen and (max-width: 768px) {
   .inner-container {
-    padding: 0;
+    padding: 10px;
   }
   .button {
     margin: 5px;
