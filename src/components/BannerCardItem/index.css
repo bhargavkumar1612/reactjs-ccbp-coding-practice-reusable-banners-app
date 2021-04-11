@@ -23,6 +23,7 @@
   margin: 20px;
   height: 30%;
   width: 90%;
+  align-items: center;
 }
 .inner-container {
   padding: 20px;
